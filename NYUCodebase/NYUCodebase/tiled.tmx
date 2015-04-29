@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="128" height="32" tilewidth="23" tileheight="23" nextobjectid="14">
+ <tileset firstgid="1" name="sprite" tilewidth="23" tileheight="23">
+  <image source="spritesheet.png" width="692" height="692"/>
+ </tileset>
+ <layer name="Block" width="128" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1EEKg0AMQNFg5yLS+9+xuBDttAq1mXTR9yA7R4SfMQIAAAAAAAAAAAAAACBP+/UH/JlpN1fOZVra35PfyXPjfubdnD13dC5jD1ps7fXPNw+ctdmVHWjx2l7/fBX9P92Bvrn+41T1X3fgbA9u8f7O6z9OZf9+D1oc/+f1r1Hd/tsh1wMvwhiR
+  </data>
+ </layer>
+ <objectgroup name="Entity Layer" opacity="0.9">
+  <object id="6" name="Start" type="Start" gid="20" x="103" y="598"/>
+  <object id="11" name="Enemy" type="Enemy" gid="447" x="667" y="689"/>
+  <object id="12" name="Enemy" type="Enemy" gid="447" x="781" y="693"/>
+  <object id="13" gid="447" x="666" y="686"/>
+ </objectgroup>
+</map>

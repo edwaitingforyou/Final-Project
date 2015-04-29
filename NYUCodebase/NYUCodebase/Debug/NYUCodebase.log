@@ -1,0 +1,25 @@
+﻿Build started 2015/4/28 16:58:18.
+     1>Project "C:\Users\bchen_000\Desktop\CS3113\Final Project\NYUCodebase\NYUCodebase\NYUCodebase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\SDL2\include /IC:\SDL2_image\include /IC:\SDL2_mixer\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(56): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(340): warning C4244: 'initializing' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(357): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(364): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(426): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(458): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(464): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(487): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(493): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(610): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(612): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\bchen_000\desktop\cs3113\final project\nyucodebase\nyucodebase\main.cpp(625): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bchen_000\Desktop\CS3113\Final Project\NYUCodebase\Debug\NYUCodebase.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SDL2_mixer\lib\x86 SDL2.lib SDL2main.lib SDL2_image.lib OpenGL32.lib SDL2_mixer.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bchen_000\Desktop\CS3113\Final Project\NYUCodebase\Debug\NYUCodebase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bchen_000\Desktop\CS3113\Final Project\NYUCodebase\Debug\NYUCodebase.lib" /MACHINE:X86 Debug\main.obj
+         NYUCodebase.vcxproj -> C:\Users\bchen_000\Desktop\CS3113\Final Project\NYUCodebase\Debug\NYUCodebase.exe
+     1>Done Building Project "C:\Users\bchen_000\Desktop\CS3113\Final Project\NYUCodebase\NYUCodebase\NYUCodebase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33

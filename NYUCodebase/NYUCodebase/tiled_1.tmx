@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="128" height="32" tilewidth="23" tileheight="23" nextobjectid="15">
+ <tileset firstgid="1" name="spritesheet_rgba" tilewidth="22" tileheight="22" spacing="1" margin="1">
+  <image source="spritesheet_rgba.png" width="692" height="692"/>
+ </tileset>
+ <layer name="块层 1" width="128" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztllEKxCAMBaXQgyy9/x33p/sTIs1qTLTOwINdSmlxnjalAAAAAAAAAAAAAAAAvI/rDuzHVfC/K1fB/65I9/jfB9zvjfSO/z2oecf/+9HOevzHctzJoOZe/l6BVeaWQ+RzJ7oD2lqt6F+bW3vfXTrqdaP51hLVgSf32v8Zqbnv7YHmpcWNxfkM/rV1sqxt5pk78v1qfixY93pmB0ac81Gd+Nd7pP9W55EdiNy3Xs9pde7tX5sLevf707O8yT6rW++bwX9GPOfQ7JnO0+fITmQ7t3ThFNGQ17L9W5ihC9meWyL7cIprEd/7VnrmhJY9/nRPtkvP9KztKnh9939kOxvhH+x8AeaqTDY=
+  </data>
+ </layer>
+ <objectgroup name="Entity">
+  <object id="1" name="Player" type="Player" gid="20" x="254" y="596"/>
+  <object id="2" name="Enemy" type="Enemy" gid="170" x="829" y="590"/>
+  <object id="3" name="Enemy" type="Enemy" gid="170" x="1211" y="578"/>
+  <object id="4" name="Enemy" type="Enemy" gid="170" x="897" y="591"/>
+  <object id="5" name="Enemy" type="Enemy" gid="170" x="970" y="586"/>
+  <object id="6" name="Enemy" type="Enemy" gid="170" x="1036" y="583"/>
+  <object id="7" name="Enemy" type="Enemy" gid="170" x="1138" y="596"/>
+  <object id="8" name="Enemy" type="Enemy" gid="170" x="506" y="430"/>
+  <object id="9" name="Enemy" type="Enemy" gid="170" x="1248" y="255"/>
+  <object id="10" name="Enemy" type="Enemy" gid="170" x="1284" y="419"/>
+  <object id="11" name="Enemy" type="Enemy" gid="170" x="1387" y="323"/>
+  <object id="12" name="Enemy" type="Enemy" gid="170" x="1521" y="267"/>
+  <object id="13" name="Enemy" type="Enemy" gid="170" x="735" y="501"/>
+  <object id="14" name="Enemy" type="Enemy" gid="170" x="646" y="412"/>
+ </objectgroup>
+</map>
