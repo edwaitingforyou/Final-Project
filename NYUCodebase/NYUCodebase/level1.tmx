@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="22" tileheight="22" nextobjectid="32">
+ <tileset firstgid="1" name="spritesheet_rgba" tilewidth="22" tileheight="22" spacing="1" margin="1">
+  <image source="../../../HW5/NYUCodebase/NYUCodebase/spritesheet_rgba.png" width="692" height="692"/>
+ </tileset>
+ <layer name="块层 1" width="64" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztmrtOwzAUhh1nZIMnYGSrBAsDvAGUdkbsKOoMhUptn4KbgOdADDwJUkDAQzAgTlVHcl27iS+x4/R80q+2ufj8/7HjLCUEQRAEQfQ5Swn5oYuaHVsXZFkxv38foTjF/Etgfv8+QmGT/xveFRSuPVBcf5jOz39Rc39lfFC3+mPK2e+cE3/dJ8tesJ0uq4CyPuRULgRBEARB1oMstIHArHt+JBzi2tNdi5nwibQfm7mOdZ1kJF7vPKsyuMonG8d0X3Hto4772rAueNqWJwZ87C+273rb+9pCW/aHTPEd8UssvTfxGUs2BEEQpDl0QhswoAmeVR46K87Zjt1ETLz6zhdTP01oez5kNRcN/U+PD19jqDEBTRvWg0fw8wR6duhrU3Hs0mGN3YSQvcR+HJe+rjlVOW7KLHsP1Gc92Dfow43ga6h5/4DI51lkNvYdJ9seFNm7TH1uHVR9jovsoi+dHlSZU7GGbQ+2UkJeIONRsqhXOn+OJxWe40GJL911oEJVw6YHYv5fqpdfNu919KCshmkPivzH8PlGF+d/XLKPV8nuogdVa8h6oNpTupD3BNTj5v9dyH8O565k2ZP5mCa+hpwn1V7HH9etwdeqW7qeHoT7R6B70JTp1kGN2LQhKLQf39oRFNoP5kep9A8gB2Px
+  </data>
+ </layer>
+ <objectgroup name="Entity">
+  <object id="3" name="NPC" type="NPC" gid="110" x="1146" y="1270"/>
+  <object id="5" name="Player" type="Player" gid="20" x="20" y="1290"/>
+  <object id="6" name="Switch_1" type="Switch_1" gid="253" x="551" y="1285"/>
+  <object id="11" name="Fish" type="Fish" gid="382" x="512" y="1385"/>
+  <object id="12" name="Fish" type="Fish" gid="2147484029" x="492" y="1360"/>
+  <object id="13" name="Bomb" type="Bomb" gid="258" x="1364" y="1269" visible="0"/>
+  <object id="26" name="Bomb" type="Bomb" gid="258" x="65" y="1259"/>
+  <object id="28" name="Bug" type="Bug" gid="295" x="632" y="1127"/>
+  <object id="29" name="Bug" type="Bug" gid="295" x="403" y="1133"/>
+ </objectgroup>
+ <objectgroup name="Enemy"/>
+</map>

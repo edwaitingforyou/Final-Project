@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="22" tileheight="22" nextobjectid="13">
+ <tileset firstgid="1" name="spritesheet_rgba" tilewidth="22" tileheight="22" spacing="1" margin="1">
+  <image source="spritesheet_rgba.png" width="692" height="692"/>
+ </tileset>
+ <layer name="块层 1" width="64" height="64" opacity="0.9">
+  <data encoding="base64" compression="zlib">
+   eJztldsJwzAMANP+9qPQLbr/DJmkIzQDlEAMivFDMnJs6B2IEEd+nJw4ywIAAAAAAAAAAAAAAAAAAAAAAAAAoGcdvYDBfI7r93YODdb82ZDrf97PUXOK+0xbg8y6Us5xlEjlz1iD+L3O7beH/0w12Ayenv4z1SCFxi3ktYwzogZhr19Kr57+8tmVNdA4hbze/vJ5zxps0XmmweLvdUZc8R54+3uNI2uQCwu5b31Wf01f7dkl+2vaNHO34umfw7LXXv7bcZbU9qOHf8pX6+q5/5bvuoXav7O2Fvx1bda5LWPh7+f/ELG3l+4tbakIc9dyPMbR9n2L2NtL95a2VIS5azke47T0xR9//P/L/wdSpm0f
+  </data>
+ </layer>
+ <objectgroup name="Entity">
+  <object id="1" name="Player" type="Player" gid="20" x="8" y="1127"/>
+  <object id="3" name="Lolipop" type="Lolipop" gid="628" x="795" y="1126"/>
+  <object id="6" name="Switch_0" type="Switch_0" gid="251" x="373" y="1026"/>
+  <object id="7" name="Box" type="Box" gid="192" x="1299" y="1094"/>
+  <object id="9" name="Bomb" type="Bomb" gid="258" x="858" y="1026"/>
+  <object id="11" name="NPC" type="NPC" gid="110" x="1258" y="1072"/>
+ </objectgroup>
+</map>

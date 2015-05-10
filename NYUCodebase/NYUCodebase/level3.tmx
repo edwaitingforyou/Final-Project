@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="22" tileheight="22" nextobjectid="26">
+ <tileset firstgid="1" name="spritesheet_rgba" tilewidth="22" tileheight="22" spacing="1" margin="1">
+  <image source="spritesheet_rgba.png" width="692" height="692"/>
+ </tileset>
+ <layer name="块层 1" width="64" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztmFFuwzAIhpPdZqfZcaveo9O0veQae1wj1RL1AIONg52ChFolSuzPPwbiZbGzd8JfxYI/+IM/+IM/+IM/+IM/+IP/dSz4ef5r5mezGv3PtBYt8Z/WYF07TOwgs9j/M8eCZf6bcV/0yv/5Ooy6R3rWvyv4HTUujqz/I66BR/8z0jp49X+jrEH0v7783nHgzb+bZx85An8yj++skfg9LPiDP/iN+UEez8+PpJ7mgd2zNGv+fJ63u39WeJoHds/Sesf/1yLj3R4+Kz8Wl/s1CXdJ/y37tbSe+mOxvy3/tcYYZ9Gfyke59pTO1P2R+bk8nO7V5DyK//fteZ0srciP1DLKStxcDPzc/XvB+b30l9ZcSnNun0P/WMv1D8aApVnsf0k9oxyyw2dyfvguS8PYpT0Wx16z57n6fyS/RP9W3Ufjz/tuzrDapq1vJT8i/10ertGfy3PYOsC8pVkTir+6/q3PzMmk8W9V16WxYBn/OTM0Cb+We9c8uXX8a/WnuKX8kp4Gi3kNO3Yf01/z/cNpLuUv5XiNplhM1OiP8jecm1P8Fvtcu2dq+aVaj8yv0f+S+X7GsiHXz+re2oTzDvOctu7V9s6t7jUuNo8N+a9h8GaxHh97n3RtWr7HqHdhLhlPWvt7zF3DJrnuMRdL3UrPaLVq9aPHw8bV9KdncNiTt3JT+2aWOKhl5jixWmZ9TtSTjWJtPeNrzW1/MbmdZQ==
+  </data>
+ </layer>
+ <objectgroup name="Entity">
+  <object id="1" name="Player" type="Player" gid="20" x="16" y="1112"/>
+  <object id="2" name="NPC" type="NPC" gid="20" x="1346" y="686"/>
+  <object id="3" name="Bomb" type="Bomb" gid="258" x="45" y="1120"/>
+  <object id="18" name="Bee" type="Bee" gid="355" x="250" y="860"/>
+  <object id="19" name="Bee" type="Bee" gid="355" x="678" y="731"/>
+  <object id="20" name="Bee" type="Bee" gid="355" x="993" y="645"/>
+  <object id="21" name="Bee" type="Bee" gid="355" x="862" y="327"/>
+  <object id="23" name="Boss" type="Boss" gid="50" x="1313" y="1123"/>
+  <object id="25" name="Switch_0" type="Switch_0" gid="251" x="643" y="297"/>
+ </objectgroup>
+</map>

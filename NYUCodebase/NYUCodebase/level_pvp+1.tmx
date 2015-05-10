@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="22" tileheight="22" nextobjectid="3">
+ <tileset firstgid="1" name="spritesheet_rgba" tilewidth="22" tileheight="22" spacing="1" margin="1">
+  <image source="spritesheet_rgba.png" width="692" height="692"/>
+ </tileset>
+ <layer name="块层 1" width="26" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D+oJqO5lHLLmq7mVKAzT3VWDAx+sixi5rqBwoQcic1/YHLrKESVrgAvrRGTTvw8QcjwJYX8YUTPvX0TDvkmklJOiDkd2rh2aN4UGMADgpfpQ==
+  </data>
+ </layer>
+ <objectgroup name="Entity">
+  <object id="1" name="Player" type="Player" gid="20" x="3" y="452"/>
+  <object id="2" name="Player_2" type="Player_2" gid="20" x="539" y="449"/>
+ </objectgroup>
+</map>
